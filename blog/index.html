@@ -1,0 +1,31 @@
+---
+layout: default
+title: What's New?
+author: rdr
+---
+
+</div>
+
+<div class="full_width maroon last_before_footer">
+  <div class="container">
+    
+    <div class="title_spacer"></div>
+
+    <div class="content_box">
+      <div id="posts" class="yield">
+        {% for post in site.posts limit: 6 %}          
+          {% include excerpt.html style="excerpt" %}
+        {% endfor %}
+      </div>
+      
+      <div id="right_sidebar" class="sidebar">
+        {% include about.html %}
+        {% include latest_posts.html %}
+      </div>
+      
+      <div class="clear"></div>
+    </div>
+  
+  </div>
+</div>
+  

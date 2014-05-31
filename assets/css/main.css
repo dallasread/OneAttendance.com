@@ -107,7 +107,7 @@ img {
 .banner[data-banner="process"] {
   padding: 100px 5% 20px; }
 .banner[data-banner="process"] .banner_title {
-  color: #1272ac;
+  color: #1D643D;
   text-shadow: none; }
 .banner[data-banner="process"] #three_steps li {
   float: left;
@@ -130,7 +130,7 @@ img {
   line-height: 21px;
   color: #666; }
 .banner[data-banner="process"] #three_steps li a {
-  color: #1272ac;
+  color: #1D643D;
   font-weight: bold; }
 .banner[data-banner="process"] .final_banner_object {
   margin-bottom: 100px; }
@@ -289,11 +289,11 @@ img {
 
 .blue_white {
   background: #489dce;
-  background: -webkit-linear-gradient(#1272ac, #489dce, #fafafa);
-  background: -moz-linear-gradient(#1272ac, #489dce, #fafafa);
-  background: -o-linear-gradient(#1272ac, #489dce, #fafafa);
-  background: -ms-linear-gradient(#1272ac, #489dce, #fafafa);
-  background: linear-gradient(#1272ac, #489dce, #fafafa); }
+  background: -webkit-linear-gradient(#1D643D, #489dce, #fafafa);
+  background: -moz-linear-gradient(#1D643D, #489dce, #fafafa);
+  background: -o-linear-gradient(#1D643D, #489dce, #fafafa);
+  background: -ms-linear-gradient(#1D643D, #489dce, #fafafa);
+  background: linear-gradient(#1D643D, #489dce, #fafafa); }
 
 .maroon {
   background: #690018;
@@ -321,11 +321,11 @@ img {
 
 .blue {
   background: #489dce;
-  background: -webkit-linear-gradient(#489dce, #1272ac);
-  background: -moz-linear-gradient(#489dce, #1272ac);
-  background: -o-linear-gradient(#489dce, #1272ac);
-  background: -ms-linear-gradient(#489dce, #1272ac);
-  background: linear-gradient(#489dce, #1272ac); }
+  background: -webkit-linear-gradient(#489dce, #1D643D);
+  background: -moz-linear-gradient(#489dce, #1D643D);
+  background: -o-linear-gradient(#489dce, #1D643D);
+  background: -ms-linear-gradient(#489dce, #1D643D);
+  background: linear-gradient(#489dce, #1D643D); }
 
 .gray {
   background: #aaa;
@@ -375,7 +375,7 @@ img {
   color: #777; }
 .topbar .nav li a.selected {
   background: #fafafa;
-  color: #1272ac; }
+  color: #1D643D; }
 .topbar .nav_right li a {
   border-left: 1px solid #ddd; }
 .topbar .nav_left li a {
@@ -426,7 +426,7 @@ img {
   color: #aaa;
   margin-bottom: 10px; }
 #right_sidebar .widget a {
-  color: #1272ac; }
+  color: #1D643D; }
 #right_sidebar .widget ul, #right_sidebar .widget p {
   font-size: 13px;
   line-height: 19px;
@@ -512,7 +512,7 @@ img {
   line-height: 44px;
   margin-bottom: 20px; }
 .post h3 {
-  color: #1272AC;
+  color: #1D643D;
   font-size: 25px;
   line-height: 33px;
   margin-bottom: 15px; }
@@ -595,11 +595,11 @@ a.button, .button {
 
 .button_blue {
   background: #489dce;
-  background: -webkit-linear-gradient(#489dce, #1272ac);
-  background: -moz-linear-gradient(#489dce, #1272ac);
-  background: -o-linear-gradient(#489dce, #1272ac);
-  background: -ms-linear-gradient(#489dce, #1272ac);
-  background: linear-gradient(#489dce, #1272ac);
+  background: -webkit-linear-gradient(#489dce, #1D643D);
+  background: -moz-linear-gradient(#489dce, #1D643D);
+  background: -o-linear-gradient(#489dce, #1D643D);
+  background: -ms-linear-gradient(#489dce, #1D643D);
+  background: linear-gradient(#489dce, #1D643D);
   border: 1px solid #0D5C8D; }
 
 .button_gray {
@@ -631,7 +631,7 @@ a.button, .button {
   display: inline-block;
   margin-right: 20px; }
 .footer .nav li a.selected {
-  color: #1272ac; }
+  color: #1D643D; }
 
 #page {
   padding: 100px 15%; }

@@ -7,7 +7,7 @@ sass:
 nav_right:
 - text: Sign Up
   url: /
-  permalink: http://app.realtxn.com/users/sign_up
+  permalink: http://app.oneattendance.com/users/sign_up
   desktop_only: true
 - text: FAQs
   url: /
@@ -18,8 +18,8 @@ nav_right:
   permalink: /blog
   desktop_only: true
 - text: Sign In
-  url: http://app.realtxn.com/users/sign_in
-  permalink: http://app.realtxn.com/users/sign_in
+  url: http://app.oneattendance.com/users/sign_in
+  permalink: http://app.oneattendance.com/users/sign_in
   desktop_only: false
 authors:
   rdr:

@@ -152,7 +152,7 @@ img {
 		padding: 100px 5% 20px;
 		
 		.banner_title {
-			color: #1272ac;
+			color: #1D643D;
 			text-shadow: none;
 		}
 		
@@ -185,7 +185,7 @@ img {
 				}
 				
 				a {
-					color: #1272ac;
+					color: #1D643D;
 					font-weight: bold;
 				}
 			}
@@ -318,7 +318,7 @@ img {
 	}
 	
 	&[data-banner="faqs"] {
-		padding: 100px 30% 20px;
+		padding: 100px 20% 20px;
 		
 		.banner_title {
 			color: #fff;
@@ -330,6 +330,10 @@ img {
 			padding: 40px;
 			background: #fff;
 			border-radius: 7px;
+			
+			li:last-child .answer {
+				margin-bottom: 0;
+			}
 			
 			.question {
 				font-size: 16px;
@@ -423,11 +427,11 @@ img {
 
 .blue_white {
   background: #489dce;
-  background: -webkit-linear-gradient(#1272ac, #489dce, #fafafa);
-  background: -moz-linear-gradient(#1272ac, #489dce, #fafafa);
-  background: -o-linear-gradient(#1272ac, #489dce, #fafafa);
-  background: -ms-linear-gradient(#1272ac, #489dce, #fafafa);
-  background: linear-gradient(#1272ac, #489dce, #fafafa);
+  background: -webkit-linear-gradient(#1D643D, #489dce, #fafafa);
+  background: -moz-linear-gradient(#1D643D, #489dce, #fafafa);
+  background: -o-linear-gradient(#1D643D, #489dce, #fafafa);
+  background: -ms-linear-gradient(#1D643D, #489dce, #fafafa);
+  background: linear-gradient(#1D643D, #489dce, #fafafa);
 }
 
 .maroon {
@@ -437,6 +441,15 @@ img {
   background: -o-linear-gradient(#690018, #520013);
   background: -ms-linear-gradient(#690018, #520013);
   background: linear-gradient(#690018, #520013);	
+}
+
+.green {
+  background: #195636;
+  background: -webkit-linear-gradient(#195636, #0C2A19);
+  background: -moz-linear-gradient(#195636, #0C2A19);
+  background: -o-linear-gradient(#195636, #0C2A19);
+  background: -ms-linear-gradient(#195636, #0C2A19);
+  background: linear-gradient(#195636, #0C2A19);
 }
 
 .brown_white {
@@ -459,11 +472,11 @@ img {
 
 .blue {
   background: #489dce;
-  background: -webkit-linear-gradient(#489dce, #1272ac);
-  background: -moz-linear-gradient(#489dce, #1272ac);
-  background: -o-linear-gradient(#489dce, #1272ac);
-  background: -ms-linear-gradient(#489dce, #1272ac);
-  background: linear-gradient(#489dce, #1272ac);
+  background: -webkit-linear-gradient(#489dce, #1D643D);
+  background: -moz-linear-gradient(#489dce, #1D643D);
+  background: -o-linear-gradient(#489dce, #1D643D);
+  background: -ms-linear-gradient(#489dce, #1D643D);
+  background: linear-gradient(#489dce, #1D643D);
 }
 
 .gray {
@@ -519,7 +532,7 @@ img {
       color: #777;
       &.selected {
         background: #fafafa;
-        color: #1272ac;
+        color: #1D643D;
       }
     }
   }
@@ -533,9 +546,14 @@ img {
     background: #fafafa;
   }
   #logo {
-    img {
-      width: 127px;
-    }
+		a {
+			padding-top: 14px;
+			padding-bottom: 13px;
+			
+	    img {
+	      height: 33px;
+	    }
+		}
   }
 }
 
@@ -559,8 +577,8 @@ img {
   background: #fff;
   padding: 30px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  // border-top: 15px solid #1272AC;
-  // border-bottom: 15px solid #1272AC;
+  // border-top: 15px solid #1D643D;
+  // border-bottom: 15px solid #1D643D;
   border-radius: 10px;
 }
 
@@ -592,7 +610,7 @@ img {
 		}
 		
 		a {
-			color: #1272ac;
+			color: #1D643D;
 		}
 		
 		ul, p {
@@ -721,7 +739,7 @@ img {
 	}
 	
 	h3 {
-	  color: #1272AC;
+	  color: #1D643D;
 	  font-size: 25px;
 	  line-height: 33px;
 		margin-bottom: 15px;
@@ -841,11 +859,11 @@ a.button, .button {
 
 .button_blue {
 	background: #489dce;
-	background: -webkit-linear-gradient(#489dce,#1272ac);
-	background: -moz-linear-gradient(#489dce,#1272ac);
-	background: -o-linear-gradient(#489dce,#1272ac);
-	background: -ms-linear-gradient(#489dce,#1272ac);
-	background: linear-gradient(#489dce,#1272ac);
+	background: -webkit-linear-gradient(#489dce,#1D643D);
+	background: -moz-linear-gradient(#489dce,#1D643D);
+	background: -o-linear-gradient(#489dce,#1D643D);
+	background: -ms-linear-gradient(#489dce,#1D643D);
+	background: linear-gradient(#489dce,#1D643D);
 	border: 1px solid #0D5C8D;
 }
 
@@ -886,7 +904,7 @@ a.button, .button {
 				margin-right: 20px;
 				
 				&.selected {
-					color: #1272ac;
+					color: #1D643D;
 				}
 			}
 		}

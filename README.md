@@ -1,1 +1,1 @@
-Official repo of RealTXN.com.
+Official repo of OneAttendance.com.
